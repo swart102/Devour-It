@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="col-md-12 text-center" id="top-bar">
 			<img src="https://juststickers.in/wp-content/uploads/2017/06/pixel-burger.png" alt="burger" />
-			<h1> Eat-Da-Burger! </h1>
+			<h1> Devour it! </h1>
 		</div>
 		<div class="col-md-6 text-center" class="task">
 			<div class="row">
@@ -11,7 +11,6 @@
 				<div class="col-md-9 text-center">
 					<pre>{{this.id}}. {{this.burger_name}}
 					</pre>
-				  		<!-- {{this.Date}} -->
 				</div>
 				<div class="col-md-3 text-center">
 					<form class="devour-form button-size">
@@ -38,9 +37,11 @@
 		<div class="col-md-12 text-center enter_section">
 			<form action="/burgers/create" method="POST">
 				<input type="text" class="form-control" name="burger_name" value="" id="enter_text">
+				<br />
 				<button type="submit" class="btn btn-primary" id="text-enter-button">Submit</button>
+				<br />
 			</form>
-			<p>Enter a burger you want to eat Click the "Submit" button.</p>
+			<h3>Enter a burger you want to eat, then click the "Submit" button to devour it.</h3>
 		</div>
 	</div>
 </div>
